@@ -1,0 +1,9 @@
+[tool.autopep8]
+ignore = "E401,E402"
+
+[tool.isort]
+combine_as_imports = true
+combine_star = true
+multi_line_output = 3
+force_grid_wrap = 2
+lines_after_imports = 2
