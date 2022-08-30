@@ -1,9 +1,13 @@
 ### [`autopep8`](https://github.com/hhatto/autopep8)
 
 `example.py` is the original, unformatted file.
+
 `example0.py` is the file formatted with `autopep8 -i`
+
 `example1.py` is the file formatted with `autopep8 -i -a` (aggressiveness level 1)
+
 `example2.py` is the file formatted with `autopep8 -i -a -a` (aggressiveness level 2)
+
 `example3.py` is the file formatted with `autopep8 -i -a -a -a` (aggressiveness level 3)
 
 `unsafe*.py` follows the same setup. You can see how different aggressiveness levels affect logic.
