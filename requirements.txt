@@ -1,8 +1,13 @@
 autopep8==1.7.0
+docformatter==1.5.0
 flake8==5.0.4
 isort==5.10.1
 mccabe==0.7.0
 pep8-naming==0.13.2
 pycodestyle==2.9.1
+pydocstyle==6.1.1
 pyflakes==2.5.0
+snowballstemmer==2.2.0
 toml==0.10.2
+tomli==2.0.1
+untokenize==0.1.1

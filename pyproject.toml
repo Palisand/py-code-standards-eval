@@ -1,5 +1,10 @@
 [tool.autopep8]
 ignore = "E401,E402"
+max_line_length = 88
+
+[tool.pydocstyle]
+convention = "google"
+add_ignore = "D100"  # Missing docstring in public module
 
 [tool.isort]
 combine_as_imports = true
