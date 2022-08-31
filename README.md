@@ -85,5 +85,9 @@ The configuration in `pyproject.toml` is based off of the [PyCharm profile](http
 `imports_sorted.py` is the original file formatted with `isort`
 
 
-### TODO: `mypy` vs `pytype` vs `pyright` vs `pyre`
+### [`mypy`](https://github.com/python/mypy)
 **For static type checking.**
+
+This is the official type checker for Python. It will warn you when type hints ([PEP 484](https://peps.python.org/pep-0484/)) are being used incorrectly.
+
+While there is a [plugin for PyCharm](https://github.com/dropbox/mypy-PyCharm-plugin), it does not yet support the latest version of the IDE and [PyCharm integrates its own implementation of PEP 484](https://www.jetbrains.com/help/pycharm/type-hinting-in-product.html).
